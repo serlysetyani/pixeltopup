@@ -1,116 +1,107 @@
-.container {
-  padding: 0 2rem;
-}
-
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+.jumbotronContainer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
 }
 
-.footer {
+.jumbotronDesc {
+  color: #777;
+}
+
+.jumbotronCTA {
+  width: 233px;
+  height: 52px;
+  background-color: #d51d29;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+}
+
+.partnerContainer {
+  padding-bottom: 80px;
+}
+
+.partnerTitle {
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.partnerLogo {
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
   align-items: center;
+  justify-content: space-around;
 }
 
-.footer a {
+.containerCTA {
+  background-image: url("../public/ctaBackground.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1080px;
+  height: 270px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-grow: 1;
+  justify-content: space-around;
+  margin: 0 auto 80px auto;
+  border-radius: 12px;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.containerCTA p {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bold;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.containerCTA button {
+  background-color: #ffffff;
+  border-radius: 4px;
+  color: #d51d29;
+  border: none;
+  width: 233px;
+  height: 52px;
+  font-size: 18px;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.testimoniContainer {
+  margin: 0 auto;
 }
 
-.title,
-.description {
+.cardTestimoni {
+  display: inline-table;
+  justify-content: space-around;
+  width: 452px;
+  margin: 0 20px 80px 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px 0 rgb(49 53 59 / 12%);
+  padding: 24px;
+}
+
+.userProfil {
+  display: flex;
+}
+
+.userProfil p {
+  margin-left: 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.userImg {
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.userReview {
+  color: #777;
+}
+
+.container404 {
+  align-items: center;
   text-align: center;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.backToHome {
+  text-decoration: underline;
+  color: #d51d29;
 }

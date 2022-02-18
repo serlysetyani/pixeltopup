@@ -1,0 +1,53 @@
+.cardProduk {
+  display: inline-table;
+  justify-content: space-between;
+  width: 180px;
+  height: 270px;
+  margin-right: 20px;
+  margin: 18px;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px 0 rgb(49 53 59 / 12%);
+}
+
+.fotoProduk {
+}
+
+.namaProduk {
+  text-align: left;
+  padding: 0 8px 0 8px;
+  font-weight: 600;
+}
+
+.hargaProduk {
+  padding: 0 8px 0 8px;
+  color: #fe8a00;
+  font-weight: 700;
+}
+
+.fotoProduk {
+  border-radius: 8px;
+}
+
+.discountContainer {
+  display: flex;
+  align-items: center;
+  padding: 0 8px 0 8px;
+}
+
+.diskonGame {
+  font-size: 11px;
+  background-color: #fedbdf;
+  color: #f84c63;
+  font-weight: 600;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.hargaAsli {
+  font-size: 11px;
+  text-decoration: line-through;
+  margin-left: 4px;
+  color: #777;
+}
