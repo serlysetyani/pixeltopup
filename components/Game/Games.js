@@ -20,7 +20,7 @@ const Games = ({ gamesList }) => {
                     <div className={styles.cardProduk} key={games.id}>
                         <Link href={'/'}>
                             <a>
-                                <Image src={games.fotoProduk} width={200} height={270} className={styles.fotoProduk} />
+                                <Image src={games.fotoProduk} width={200} height={270} className={styles.fotoProduk} alt={games.nama} />
                             </a>
                         </Link>
                         <Link href={'/'}>
